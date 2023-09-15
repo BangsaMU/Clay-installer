@@ -101,6 +101,9 @@ class EnvironmentManager
         'APP_DEBUG='.$request->app_debug."\n".
         'APP_LOG_LEVEL='.$request->app_log_level."\n".
         'APP_URL='.$request->app_url."\n\n".
+        'DASHBOARD_ONLY='.$request->DASHBOARD_ONLY."\n\n".
+        'SSO_ACTIVE='.$request->SSO_ACTIVE."\n".
+        'SSO_URL='.$request->SSO_URL."\n\n".
         'DB_CONNECTION='.$request->database_connection."\n".
         'DB_HOST='.$request->database_hostname."\n".
         'DB_PORT='.$request->database_port."\n".
